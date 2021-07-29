@@ -16,7 +16,6 @@ import pandas as pd
 import telegram_send
 import requests
 from bs4 import BeautifulSoup
-import time
 
 df = pd.read_csv('df.csv')
 eng_cities = df['City (eng)'].to_list()
